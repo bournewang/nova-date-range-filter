@@ -17,7 +17,7 @@
 </template>
 <script>
 import flatpickr from 'flatpickr'
-import { zh } from "flatpickr/dist/l10n/zh.js"
+import lang from "flatpickr/dist/l10n/zh"
 import '../../airbnb-modified.css'
 
 export default {
@@ -90,7 +90,7 @@ export default {
         onReady() {
           self.$refs.datePicker.parentNode.classList.add('date-filter')
         },
-          locale: zh
+          locale: lang.zh
       })
       const wrapper = document.querySelector('.dropdown-menu div')
       wrapper.classList.remove('overflow-hidden')
