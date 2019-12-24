@@ -2,7 +2,7 @@
   <div>
     <!-- <h3 class="text-sm uppercase tracking-wide text-80 bg-30 p-3">{{ filter.name }}</h3> -->
 
-    <div class="p-2">
+    <div class="">
   <input
     class="w-full form-control form-input form-input-bordered"
     :disabled="disabled"
